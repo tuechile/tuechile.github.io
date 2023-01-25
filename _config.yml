@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "tuechile.github.io/photography"
+baseurl: "https://tuechile.github.io"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
