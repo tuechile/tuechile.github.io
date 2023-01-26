@@ -47,6 +47,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	*::-webkit-scrollbar {
+		display: none;
+	}
 
 /* Box Model */
 
@@ -127,7 +130,7 @@
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: none;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -167,7 +170,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #a0a0a2;
+		color: #a0a0a1;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 300;

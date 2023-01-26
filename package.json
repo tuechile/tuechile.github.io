@@ -1,14 +1,14 @@
 {
-  "name": "photography",
+  "name": "shots",
   "version": "3.0.0",
-  "description": "A jekyll website for photographer cum developer",
+  "description": "A jekyll website for photography",
   "main": "npmfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramswaroop/photography.git"
+    "url": "git+https://github.com/tuechile/tuechile.github.io.git"
   },
   "keywords": [
     "photography",
@@ -19,18 +19,18 @@
     "portfolio",
     "portfolio website"
   ],
-  "author": "Ram Patra",
+  "author": "Pushpinder Pal Singh",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ramswaroop/photography/issues"
+    "url": "https://github.com/tuechile/tuechile.github.io/issues"
   },
-  "homepage": "https://github.com/ramswaroop/photography#readme",
+  "homepage": "https://github.com/tuechile/tuechile.github.io#readme",
   "devDependencies": {
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-image-resize": "^0.12.0",
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.0"
   }
 }
