@@ -1,4 +1,5 @@
 # Base configs
+url: "https://tuechile.github.io"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 
