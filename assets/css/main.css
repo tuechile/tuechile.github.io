@@ -1436,6 +1436,24 @@
 					color: inherit !important;
 				}
 
+		#header menu {
+			color: #a0a0a1;
+			display: inline-block;
+			font-size: 1em;
+			line-height: 1;
+			margin: 10em;
+			vertical-align: middle;
+		}
+
+			#header menu a {
+				border: 0;
+				color: inherit;
+			}
+
+				#header menu a:hover {
+					color: inherit !important;
+				}
+
 		#header nav {
 			position: absolute;
 			right: 0;
