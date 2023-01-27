@@ -2054,9 +2054,11 @@
 		#album-main .album-description h2 {
 			font-size: 2em;
 			color: #707071;
+			display: inline-block;
 		}
 
 		#album-main .album-description h3 {
 			font-size: 1em;
 			color: #707071;
+			display: inline-block;
 		}
