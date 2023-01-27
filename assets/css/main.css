@@ -1441,8 +1441,8 @@
 			display: inline-block;
 			font-size: 1em;
 			line-height: 1;
-			margin-left: 5em!important;
-			margin-right: 5em!important;
+			margin-left: 5vw!important;
+			margin-right: 5vw!important;
 			vertical-align: middle;
 		}
 
@@ -2023,7 +2023,7 @@
 	display: block;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	overflow: hidden;
-	padding: 10em;
+	padding: 5vw;
 }
 
 	#album-main #album-title {
@@ -2042,6 +2042,7 @@
 
 	#album-main .album-preview {
 		max-width: 60%;
+		display: inline-block;
 	}
 
 		#album-main .album-preview img {
@@ -2050,15 +2051,14 @@
 
 	#album-main .album-description {
 		overflow-wrap: break-word;
+		display: inline-block;
 	}
 		#album-main .album-description h2 {
 			font-size: 2em;
 			color: #707071;
-			display: inline-block;
 		}
 
 		#album-main .album-description h3 {
 			font-size: 1em;
 			color: #707071;
-			display: inline-block;
 		}
