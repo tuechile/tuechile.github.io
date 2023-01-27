@@ -2020,9 +2020,10 @@
 	-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 	-ms-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -ms-filter 0.5s ease;
 	transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease;
-	display: inline-block;
+	display: block;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	overflow: hidden;
+	padding: 10em;
 }
 
 	#album-main #album-title {
@@ -2034,6 +2035,10 @@
 			color: #a0a0a1;
 			text-align: right;
 		}
+
+	#album-entry {
+		display: inline-block!important;
+	}
 
 	#album-main .album-preview {
 		max-width: 60%;
