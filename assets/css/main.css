@@ -2017,7 +2017,7 @@
 
 #album-main {
 	display: block;
-	padding: 25em;
+	padding: 15em;
 	transition: opacity 1s ease-in-out;
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
@@ -2025,7 +2025,7 @@
 }
 
 	#album-main #album-title h1 {
-		font-size: 20em;
+		font-size: 8em;
 		color: #a0a0a1;
 	}
 
@@ -2039,6 +2039,6 @@
 	}
 
 	#album-main #album-entry h3 {
-		font-size: 4em;
+		font-size: 3em;
 		color: #707071;
 	}
