@@ -1559,6 +1559,12 @@
 			position: relative;
 		}
 
+			#main .thumb:hover {
+				z-index: 10!important;
+				transform: scaleX(1.01) scaleY(1.01)!important;
+				box-shadow: 0 0 1em 0.1em black!important;
+			}
+
 			#main .thumb:after {
 				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
@@ -1576,12 +1582,6 @@
 				position: absolute;
 				top: 0;
 				width: 100%;
-			}
-
-			article.thumb:hover {
-				z-index: 10;
-				transform: scaleX(1.01) scaleY(1.01);
-				box-shadow: 0 0 1em 0.1em black;
 			}
 
 			#main .thumb > .image {
