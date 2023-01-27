@@ -2052,6 +2052,8 @@
 	#album-main .album-description {
 		overflow-wrap: break-word;
 		display: inline-block;
+		padding-left: 5vw;
+		margin-top: -5vw;
 	}
 		#album-main .album-description h2 {
 			font-size: 2em;
