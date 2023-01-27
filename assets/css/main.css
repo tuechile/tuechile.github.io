@@ -1436,11 +1436,13 @@
 					color: inherit !important;
 				}
 
-		#navigator {
+		#header h1 #navigator {
+			color: #a0a0a1;
 			display: inline-block;
+			font-size: 1em;
 			line-height: 1;
-			margin-left: 10em;
-			margin-right: 10em;
+			margin-left: 10em!important;
+			margin-right: 10em!important;
 			vertical-align: middle;
 		}
 
@@ -1576,7 +1578,7 @@
 				width: 100%;
 			}
 
-			#main .thumb:hover {
+			article.thumb:hover {
 				z-index: 10;
 				transform: scaleX(1.01) scaleY(1.01);
 				box-shadow: 0 0 1em 0.1em black;
