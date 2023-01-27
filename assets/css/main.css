@@ -1526,12 +1526,6 @@
 	}
 
 /* Main */
-article.thumb:hover {
-	z-index: 10!important;
-	transform: scaleX(1.01) scaleY(1.01)!important;
-	box-shadow: 0 0 1em 0.1em black!important;
-}
-
 	#main {
 		-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
 		-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
@@ -1562,6 +1556,12 @@ article.thumb:hover {
 			opacity: 1;
 			overflow: hidden;
 			position: relative;
+		}
+
+		#main .thumb:hover {
+			z-index: 10!important;
+			transform: scaleX(1.01) scaleY(1.01)!important;
+			box-shadow: 0 0 1em 0.1em black!important;
 		}
 
 			#main .thumb:after {
