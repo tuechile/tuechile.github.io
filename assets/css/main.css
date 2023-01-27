@@ -1436,7 +1436,7 @@
 					color: inherit !important;
 				}
 
-		#header menu {
+		#navigator {
 			display: inline-block;
 			line-height: 1;
 			margin-left: 10em;
@@ -1576,6 +1576,12 @@
 				width: 100%;
 			}
 
+			#main .thumb:hover {
+				z-index: 10;
+				transform: scaleX(1.01) scaleY(1.01);
+				box-shadow: 0 0 1em 0.1em black;
+			}
+
 			#main .thumb > .image {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
@@ -1588,12 +1594,6 @@
 				top: 0;
 				width: 100%;
 			}
-
-				#main .thumb > .image:hover {
-					z-index: 10;
-					transform: scaleX(1.01) scaleY(1.01);
-					box-shadow: 0 0 1em 0.1em black;
-				}
 
 			#main .thumb > h2 {
 				-moz-pointer-events: none;
