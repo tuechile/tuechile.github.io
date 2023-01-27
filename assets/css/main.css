@@ -2042,27 +2042,27 @@
 			text-align: right;
 		}
 
-	#album-main #album-entry {
-		display: inline-block;
+	#album-main .album-entry {
+		display: inline-block!important;
 	}
 
-	#album-main #album-preview {
+	#album-main .album-preview {
 		width: 60%;
 	}
 
-		#album-main #album-preview img {
+		#album-main .album-preview img {
 			max-width: 100%;
 		}
 
-	#album-main #album-description {
+	#album-main .album-description {
 		overflow-wrap: break-word;
 	}
-		#album-main #album-description h2 {
+		#album-main .album-description h2 {
 			font-size: 2em;
 			color: #707071;
 		}
 
-		#album-main #album-description h3 {
+		#album-main .album-description h3 {
 			font-size: 1em;
 			color: #707071;
 		}
