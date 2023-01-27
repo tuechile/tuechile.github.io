@@ -2018,10 +2018,11 @@
 #album-main {
 	display: block;
 	padding: 5em;
+	transition: opacity 1s ease-in-out;
 }
 
 	#album-main #album-title h1 {
-		font-size: 1.5em;
+		font-size: 4em;
 		color: #a0a0a1;
 	}
 
@@ -2030,11 +2031,11 @@
 	}
 
 	#album-main #album-entry h2 {
-		font-size: 1em;
+		font-size: 3em;
 		color: #707071;
 	}
 
 	#album-main #album-entry h3 {
-		font-size: 0.8em;
+		font-size: 2em;
 		color: #707071;
 	}
