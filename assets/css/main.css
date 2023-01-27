@@ -1436,24 +1436,13 @@
 					color: inherit !important;
 				}
 
-		#header h1.menu {
-			color: #a0a0a1;
+		#header menu {
 			display: inline-block;
-			font-size: 1em;
 			line-height: 1;
 			margin-left: 10em;
 			margin-right: 10em;
 			vertical-align: middle;
 		}
-
-			#header h1.menu a {
-				border: 0;
-				color: inherit;
-			}
-
-				#header h1.menu a:hover {
-					color: inherit !important;
-				}
 
 		#header nav {
 			position: absolute;
@@ -1550,6 +1539,7 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		overflow: hidden;
 	}
 
 		#main .thumb {
@@ -1598,6 +1588,12 @@
 				top: 0;
 				width: 100%;
 			}
+
+				#main .thumb > .image:hover {
+					z-index: 10;
+					transform: scaleX(1.01) scaleY(1.01);
+					box-shadow: 0 0 1em 0.1em black;
+				}
 
 			#main .thumb > h2 {
 				-moz-pointer-events: none;
