@@ -2012,3 +2012,29 @@
 		#footer .copyright a {
 			color: inherit;
 		}
+
+/* Album listing */
+
+#album-main {
+	display: block;
+	padding: 5em;
+}
+
+	#album-main #album-title h1 {
+		font-size: 1.5em;
+		color: #a0a0a1;
+	}
+
+	#album-main #album-entry img {
+		max-width: 100%;
+	}
+
+	#album-main #album-entry h2 {
+		font-size: 1em;
+		color: #707071;
+	}
+
+	#album-main #album-entry h3 {
+		font-size: 0.8em;
+		color: #707071;
+	}
