@@ -53,7 +53,7 @@
 		letter-spacing: _font(kerning-alt);
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		text-transform: none;
 
 		a {
 			color: inherit;
