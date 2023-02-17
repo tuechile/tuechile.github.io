@@ -2035,17 +2035,28 @@
 			text-align: right;
 		}
 
-	#album-entry {
-		display: inline-block!important;
+	.album-wrapper {
+		display: block;
+		align-items: stretch;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-box-direction: row;
+		flex-direction: row;
+		align-content: stretch;
+		flex-wrap: wrap;
 	}
 
 	#album-main .album-preview {
-		display: inline-block;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+		flex-wrap: nowrap;
 	}
 
 	@media screen {
 		#album-main .album-preview {
-			max-width: 60%;
+			max-width: 60vw;
 		}
 	}
 
@@ -2055,7 +2066,10 @@
 
 	#album-main .album-description {
 		overflow-wrap: break-word;
-		display: inline-block;
+		display: flex;
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
 		padding-left: 5vw;
 		transform: translate(0,-5vw);
 	}
