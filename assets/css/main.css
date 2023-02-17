@@ -1671,7 +1671,7 @@
 			transition-delay: 2.525s;
 			height: calc(40vh - 2em);
 			min-height: 20em;
-			width: 25%;
+			width: 33.33333%;
 		}
 
 			#main .thumb:nth-child(1) {
@@ -2032,11 +2032,37 @@
 	-webkit-transition: opacity 1.25s ease-in-out;
 	-ms-transition: opacity 1.25s ease-in-out;
 	transition: opacity 1.25s ease-in-out;
+	-moz-transition-delay: 2.525s;
+	-webkit-transition-delay: 2.525s;
+	-ms-transition-delay: 2.525s;
+	transition-delay: 2.525s;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 }
+
+#album-main .album-entry:nth-child(1) {
+	-moz-transition-delay: 0.65s;
+	-webkit-transition-delay: 0.65s;
+	-ms-transition-delay: 0.65s;
+	transition-delay: 0.65s;
+}
+
+#album-main .album-entry:nth-child(2) {
+	-moz-transition-delay: 0.8s;
+	-webkit-transition-delay: 0.8s;
+	-ms-transition-delay: 0.8s;
+	transition-delay: 0.8s;
+}
+
+#album-main .album-entry:nth-child(3) {
+	-moz-transition-delay: 0.95s;
+	-webkit-transition-delay: 0.95s;
+	-ms-transition-delay: 0.95s;
+	transition-delay: 0.95s;
+}
+
 
 	#album-main #album-title {
 		width: 100%;
