@@ -1,6 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 /*
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
@@ -171,7 +170,7 @@
 
 	body, input, select, textarea {
 		color: #a0a0a1;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Playfair Display", serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
