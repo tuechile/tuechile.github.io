@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 /*
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
@@ -170,7 +170,7 @@
 
 	body, input, select, textarea {
 		color: #a0a0a1;
-		font-family: "Playfair Display", serif;
+		font-family: "Epilogue", sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -2076,12 +2076,26 @@
 		padding-left: 5vw;
 		transform: translate(0,-5vw);
 	}
+
+	#album-main .album-description h2 {
+		font-size: 10vw;
+		color: #707071;
+	}
+
+	#album-main .album-description h3 {
+		font-size: 5vw;
+		color: #707071;
+	}
+
+	@media screen {
 		#album-main .album-description h2 {
-			font-size: 2em;
+			font-size: 25vw;
 			color: #707071;
 		}
 
 		#album-main .album-description h3 {
-			font-size: 1em;
+			font-size: 15vw;
 			color: #707071;
 		}
+	}
+		
