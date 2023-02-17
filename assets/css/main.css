@@ -2045,7 +2045,8 @@
 		-webkit-box-direction: row;
 		flex-direction: row;
 		align-content: stretch;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
+		align-items: flex-end;
 	}
 
 	#album-main .album-preview {
