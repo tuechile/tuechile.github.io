@@ -245,6 +245,7 @@
 
 	h5 {
 		font-size: 0.9em;
+		font-style: italic;
 	}
 
 	h6 {
@@ -267,6 +268,7 @@
 
 		h5 {
 			font-size: 0.7em;
+			font-style: italic;
 		}
 
 		h6 {
@@ -2036,7 +2038,7 @@
 		}
 
 	.album-wrapper {
-		display: block;
+		display: flex;
 		align-items: stretch;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
