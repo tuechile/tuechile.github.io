@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Albums"
-permalink: /albums
+layout: album
+permalink: /cnn
 ---
 
 <!-- Wrapper -->
@@ -10,7 +9,7 @@ permalink: /albums
     <!-- Header -->
     <header id="header">
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
-        <link rel="icon" href="assets/cam.png" type="image/png">
+        <link rel="icon" href="./assets/cam.png" type="image/png">
         <h1 id="navigator"><a href="albums.html">Albums</a></h1>
         <nav>
             <ul>
@@ -20,34 +19,18 @@ permalink: /albums
     </header>
 
     <!-- Main -->
-    <div id="album-main">
-        <div id="album-title">
-            <h1>Albums</h1>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/tam-cam/1A.jpg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="tam-cam.html">The Story of Tam and Cam</a></h2>
-                    <h3>A Photo Essay, 2023</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/cnn/2b.jpeg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="cnn.html">CNN Hội Thao</a></h2>
-                    <h3>Selected photos from Amber House</h3>
-                </div>
-            </div>
-        </div>
+    <div id="main">
+        {% for image in site.static_files %}
+        {% if image.path contains 'fulls/cnn' %}
+        <article class="thumb">
+            <a href="{{ site.baseurl }}/albums/fulls/cnn/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}/albums/thumbs/cnn/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"/></a>
+            <!--<h2></h2>
+            <p></p>-->
+        </article>
+        {% endif %}
+        {% endfor %}
     </div>
 
     <!-- Footer -->
@@ -100,5 +83,5 @@ permalink: /albums
                 </p>
             </div>
         </div>
-    </footer>    
+    </footer>
 </div>

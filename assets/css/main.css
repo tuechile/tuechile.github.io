@@ -1019,7 +1019,7 @@
 
 				.panel > .inner.split > div {
 					margin-left: 4em;
-					width: 75%;
+					width: 70%;
 				}
 
 				.panel > .inner.split > :first-child {
@@ -2027,6 +2027,13 @@
 	padding: 5vw;
 }
 
+#album-main .album-entry {
+	-moz-transition: opacity 1.25s ease-in-out;
+	-webkit-transition: opacity 1.25s ease-in-out;
+	-ms-transition: opacity 1.25s ease-in-out;
+	transition: opacity 1.25s ease-in-out;
+}
+
 	#album-main #album-title {
 		width: 100%;
 	}
@@ -2060,6 +2067,7 @@
 	@media screen {
 		#album-main .album-preview {
 			max-width: 60vw;
+			min-width: 40vw;
 		}
 	}
 
@@ -2080,6 +2088,7 @@
 	#album-main .album-description h2 {
 		font-size: 2.5vw;
 		color: #707071;
+		font-weight: 500;
 	}
 
 	#album-main .album-description h3 {
