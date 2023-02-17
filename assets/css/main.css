@@ -1019,7 +1019,7 @@
 
 				.panel > .inner.split > div {
 					margin-left: 4em;
-					width: 50%;
+					width: 75%;
 				}
 
 				.panel > .inner.split > :first-child {
@@ -2078,24 +2078,13 @@
 	}
 
 	#album-main .album-description h2 {
-		font-size: 10vw;
+		font-size: 2.5vw;
 		color: #707071;
 	}
 
 	#album-main .album-description h3 {
-		font-size: 5vw;
+		font-size: 1.5vw;
 		color: #707071;
-	}
-
-	@media screen {
-		#album-main .album-description h2 {
-			font-size: 25vw;
-			color: #707071;
-		}
-
-		#album-main .album-description h3 {
-			font-size: 15vw;
-			color: #707071;
-		}
+		font-style: italic;
 	}
 		
