@@ -191,13 +191,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #34a58e;
+		color: #ff6f61;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			color: #ff6f61 !important;
 		}
 
 	strong, b {
@@ -380,8 +380,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #34a58e;
-			color: #34a58e !important;
+			box-shadow: inset 0 0 0 2px #ff6f61;
+			color: #ff6f61 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -390,7 +390,7 @@
 			button:hover:active,
 			.button:hover:active {
 				background-color: rgba(52, 165, 142, 0.15);
-				color: #34a58e !important;
+				color: #ff6f61 !important;
 			}
 
 		input[type="submit"].icon,
@@ -440,7 +440,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #34a58e;
+			background-color: #ff6f61;
 			box-shadow: none;
 		}
 
@@ -565,7 +565,7 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px #34a58e;
+			box-shadow: inset 0 0 0 2px #ff6f61;
 		}
 
 	.select-wrapper {
@@ -668,15 +668,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #34a58e;
-			border-color: #34a58e;
+			background: #ff6f61;
+			border-color: #ff6f61;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #34a58e;
+			box-shadow: 0 0 0 2px #ff6f61;
 		}
 
 	input[type="radio"] + label:before {
