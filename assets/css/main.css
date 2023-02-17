@@ -2042,28 +2042,6 @@
 	margin-right: 2.5vw;
 }
 
-#album-main .album-entry:nth-child(1) {
-	-moz-transition-delay: 0.65s;
-	-webkit-transition-delay: 0.65s;
-	-ms-transition-delay: 0.65s;
-	transition-delay: 0.65s;
-}
-
-#album-main .album-entry:nth-child(2) {
-	-moz-transition-delay: 0.8s;
-	-webkit-transition-delay: 0.8s;
-	-ms-transition-delay: 0.8s;
-	transition-delay: 0.8s;
-}
-
-#album-main .album-entry:nth-child(3) {
-	-moz-transition-delay: 0.95s;
-	-webkit-transition-delay: 0.95s;
-	-ms-transition-delay: 0.95s;
-	transition-delay: 0.95s;
-}
-
-
 	#album-main #album-title {
 		width: 100%;
 	}
