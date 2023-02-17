@@ -2032,6 +2032,10 @@
 	-webkit-transition: opacity 1.25s ease-in-out;
 	-ms-transition: opacity 1.25s ease-in-out;
 	transition: opacity 1.25s ease-in-out;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
 }
 
 	#album-main #album-title {
@@ -2066,8 +2070,7 @@
 
 	@media screen {
 		#album-main .album-preview {
-			max-width: 60vw;
-			min-width: 40vw;
+			width: 40vw;
 		}
 	}
 
@@ -2092,7 +2095,7 @@
 	}
 
 	#album-main .album-description h3 {
-		font-size: 1.5vw;
+		font-size: 1vw;
 		color: #707071;
 		font-style: italic;
 	}
