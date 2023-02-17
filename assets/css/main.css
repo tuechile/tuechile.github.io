@@ -2092,11 +2092,12 @@
 		-webkit-box-direction: normal;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 40vw;
 	}
 
-	@media screen {
+	@media screen and (max-width: 480px) {
 		#album-main .album-preview {
-			width: 40vw;
+			width: 100%;
 		}
 	}
 

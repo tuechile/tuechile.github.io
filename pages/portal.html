@@ -1,6 +1,6 @@
 ---
 layout: album
-permalink: /tam-cam
+permalink: /portal
 ---
 
 <!-- Wrapper -->
@@ -21,10 +21,10 @@ permalink: /tam-cam
     <!-- Main -->
     <div id="main">
         {% for image in site.static_files %}
-        {% if image.path contains 'fulls/tam-cam' %}
+        {% if image.path contains 'fulls/portal' %}
         <article class="thumb">
-            <a href="{{ site.baseurl }}/albums/fulls/tam-cam/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}/albums/thumbs/tam-cam/{{ image.name }}" alt=""
+            <a href="{{ site.baseurl }}/albums/fulls/portal/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}/albums/thumbs/portal/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
