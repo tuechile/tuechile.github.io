@@ -2040,8 +2040,13 @@
 	}
 
 	#album-main .album-preview {
-		max-width: 60%;
 		display: inline-block;
+	}
+
+	@media screen {
+		#album-main .album-preview {
+			max-width: 60%;
+		}
 	}
 
 		#album-main .album-preview img {
