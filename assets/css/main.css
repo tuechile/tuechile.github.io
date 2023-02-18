@@ -2054,6 +2054,12 @@
 			text-align: right;
 		}
 
+		@media screen and (max-width: 980px) {
+			#album-main #album-title h1 {
+				font-size: 5vw;
+			}
+		}
+
 	.album-wrapper {
 		display: flex;
 		align-items: stretch;
@@ -2092,7 +2098,8 @@
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		padding-left: 5vw;
-		transform: translate(0,-5vw);
+		transform: translate(0,-2.5vh);
+		max-width: 40vw;
 	}
 
 	#album-main .album-description h2 {
