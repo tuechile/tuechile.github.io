@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Albums"
-permalink: /albums
+layout: album
+permalink: /cnn
 ---
 
 <!-- Wrapper -->
@@ -20,62 +19,19 @@ permalink: /albums
     </header>
 
     <!-- Main -->
-    <div id="album-main">
-        <div id="album-title">
-            <h1>Albums</h1>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/tam-cam/1A.jpg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="tam-cam.html">The Story of Tam and Cam</a></h2>
-                    <h3>A Photo Essay</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/cnn/2B.jpeg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="cnn.html">CNN Hội Thao</a></h2>
-                    <h3>Selected photos from Amber House</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/portal/1A.jpg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="portal.html">The Portal</a></h2>
-                    <h3>A collection of poems and short stories</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="album-entry">
-            <div class="album-wrapper">
-                <div class="album-preview">
-                    <img src="albums/fulls/superface/2B.jpg">
-                </div>
-                <div class="album-description">
-                    <h2><a href="superface.html">Superface</a></h2>
-                    <h3><strong>Superface</strong> is a collection of self-edited self-portraits that I started since the start of my 10th grade--my first academic year in the pandemic--to experiment with makeup and artistic concepts.
-                        People are recognized by their facial appearances, but our faces are constantly morphing with external gazes that scrutinize our facade, of our own volition or not.
-                        My face is a <strong>superface</strong>, a layering of different personalities and stories that I wear on my skin. As an artist, I use my face as canvas to reclaim the ways I am perceived.</h3>
-                </div>
-            </div>
-        </div>
+    <div id="main">
+        {% for image in site.static_files %}
+        {% if image.path contains 'fulls/superface' %}
+        <article class="thumb">
+            <a href="{{ site.baseurl }}/albums/fulls/superface/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}/albums/thumbs/superface/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"/></a>
+            <!--<h2></h2>
+            <p></p>-->
+        </article>
+        {% endif %}
+        {% endfor %}
     </div>
-</div>
 
     <!-- Footer -->
     <footer id="footer" class="panel">
@@ -127,5 +83,5 @@ permalink: /albums
                 </p>
             </div>
         </div>
-    </footer>    
+    </footer>
 </div>
