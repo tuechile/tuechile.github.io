@@ -1669,8 +1669,8 @@
 			-webkit-transition-delay: 2.525s;
 			-ms-transition-delay: 2.525s;
 			transition-delay: 2.525s;
-			height: calc(33.33333vw * 9/16);
-			min-height: 20em;
+			height: calc(33.33333vw * 9 / 16);
+			/*min-height: 20em;*/
 			width: 33.33333%;
 		}
 
@@ -1765,8 +1765,8 @@
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(33.33333vw * 9/16);
-				min-height: 20em;
+				height: calc(33.33333vw * 9 / 16);
+				/*min-height: 20em;*/
 				width: 33.33333%;
 			}
 
@@ -1842,8 +1842,8 @@
 				-webkit-transition-delay: 1.625s;
 				-ms-transition-delay: 1.625s;
 				transition-delay: 1.625s;
-				height: calc(50vw * 9/16);
-				min-height: 20em;
+				height: calc(50vw * 9 / 16);
+				/*min-height: 20em;*/
 				width: 50%;
 			}
 
@@ -1898,9 +1898,9 @@
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(50vw * 9/16);
+				height: calc(50vw * 9 / 16);
 				/*height: calc(28.57143vh - 1.33333em);*/
-				min-height: 18em;
+				/*min-height: 18em;*/
 				width: 50%;
 			}
 
@@ -1978,7 +1978,7 @@
 				transition-delay: 1.175s;
 				height: 56.25vw;
 				/*height: calc(40vh - 2em);*/
-				min-height: 18em;
+				/*min-height: 18em;*/
 				width: 100%;
 			}
 
