@@ -2081,7 +2081,7 @@
 		width: 40vw;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 980px) {
 		#album-main .album-preview {
 			width: 60vw;
 		}
