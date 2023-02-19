@@ -2081,12 +2081,6 @@
 		width: 40vw;
 	}
 
-	@media screen and (max-width: 980px) {
-		#album-main .album-preview {
-			width: 60vw;
-		}
-	}
-
 		#album-main .album-preview img {
 			width: 100%;
 		}
