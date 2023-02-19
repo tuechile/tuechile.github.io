@@ -2056,7 +2056,7 @@
 
 		@media screen and (max-width: 980px) {
 			#album-main #album-title h1 {
-				font-size: 5vw;
+				font-size: 10vw;
 			}
 		}
 
@@ -2083,7 +2083,7 @@
 
 	@media screen and (max-width: 480px) {
 		#album-main .album-preview {
-			width: 100%;
+			width: 60vw;
 		}
 	}
 
