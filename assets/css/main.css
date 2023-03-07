@@ -2052,6 +2052,7 @@
 			font-size: 6em;
 			color: #a0a0a1;
 			text-align: right;
+			text-shadow: 0.1vw 0.1vw 1vw #000000;
 		}
 
 		@media screen and (max-width: 980px) {
