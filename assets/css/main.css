@@ -2109,3 +2109,17 @@
 		font-style: italic;
 	}
 		
+	@media screen and (max-width: 480px) {
+		#album-main .album-wrapper {
+			display: block;
+		}
+
+		#album-main .album-preview {
+			width: 100%;
+		}
+
+		#album-main .album-description {
+			transform: translate(0,2.5vh);
+			max-width: 100%;
+		}
+	}
