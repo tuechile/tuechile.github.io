@@ -2121,6 +2121,7 @@
 		#album-main .album-description {
 			transform: translate(0,2.5vh);
 			max-width: 100%;
+			padding-right: 5vw;
 		}
 
 		#album-main .album-description h2 {
