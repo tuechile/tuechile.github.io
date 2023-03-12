@@ -2038,8 +2038,8 @@
 	-webkit-transition-delay: 2.525s;
 	-ms-transition-delay: 2.525s;
 	transition-delay: 2.525s;
-	margin-top: 5vw;
-	margin-bottom: 5vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 }
@@ -2121,5 +2121,13 @@
 		#album-main .album-description {
 			transform: translate(0,2.5vh);
 			max-width: 100%;
+		}
+
+		#album-main .album-description h2 {
+			font-size: 4vw;
+		}
+
+		#album-main .album-description h3 {
+			font-size: 2vw;
 		}
 	}
