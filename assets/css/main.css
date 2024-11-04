@@ -1019,7 +1019,7 @@
 
 				.panel > .inner.split > div {
 					margin-left: 4em;
-					width: 70%;
+					width: 100%;
 				}
 
 				.panel > .inner.split > :first-child {
