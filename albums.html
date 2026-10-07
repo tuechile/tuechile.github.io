@@ -1,0 +1,191 @@
+---
+layout: default
+title: "Albums"
+permalink: /albums
+---
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="/"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
+        <link rel="icon" href="assets/cam.png" type="image/png">
+        <h1 id="navigator"><a href="albums.html">Albums</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="album-main">
+        <div id="album-title">
+            <h1>Albums</h1>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/nha-co.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="nha-co.html">Nhà Cổ</a></h2>
+                    <h3>In situ Museumization of the Old House: <strong>a Photo Essay</strong></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/hoi-thao-logo.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="hoi-thao-logo.html">Logo Hội Thao</a></h2>
+                    <h3>Commissioned logos for CNN Hội Thao</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/black-swan.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="black-swan.html">Black Swan</a></h2>
+                    <h3>A conceptual exercise in selective color manipulation, <strong>Black Swan</strong> is about the fallen perfectionist who is straying further into the dark.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/tuyen-quang.JPG">
+                </div>
+                <div class="album-description">
+                    <h2><a href="tuyen-quang.html">Tuyen Quang</a></h2>
+                    <h3>Selected photos from school excursion at Tuyen Quang with friends</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/tam-cam.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="tam-cam.html">The Story of Tam and Cam</a></h2>
+                    <h3>The Making of Vietnamese Women through Folklore, Poetry, and Modern Media: <strong>a Photo Essay</strong></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/cnn.jpeg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="cnn.html">CNN Hội Thao</a></h2>
+                    <h3>Selected photos from Amber House at CNN Olympics</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/portal.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="portal.html">The Portal</a></h2>
+                    <h3>A Collection of Poems and Short Stories</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/military.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="military.html">Quốc Phòng</a></h2>
+                    <h3>Selected photos from Military Education trip</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-entry">
+            <div class="album-wrapper">
+                <div class="album-preview">
+                    <img src="albums/cover/superface.jpg">
+                </div>
+                <div class="album-description">
+                    <h2><a href="superface.html">Superface</a></h2>
+                    <h3><strong>Superface</strong> is an amalgamation of self-edited self-portraits that I started since the start of my 10th grade, my first academic year in the pandemic, to experiment with makeup and artistic concepts.
+                        People are recognized by their facial appearances, but our faces are constantly morphing with external gazes that scrutinize our facade, of our own volition or not.</h3>
+                    <h3>My face is a <strong>superface</strong>, a layering of different personalities and stories that I wear on my skin. As an artist, I use my face as canvas to reclaim the ways I am perceived.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer id="footer" class="panel">
+        <div class="inner split">
+            <div>
+                <section>
+                    <h2>{{ site.footer.name }}</h2>
+                    <p>{{ site.footer.bio }}</p>
+                    <p>{{ site.footer.bio2 }}</p>
+                    <p>{{ site.footer.bio3 }}</p>
+                    <h5>{{ site.footer.reminder }}</h5>
+                    <p>{{ site.footer.github }}</p>
+                </section>
+                <section>
+                    <h2>Follow me on ...</h2>
+                    <ul class="icons">
+                        {% if site.social_urls.github %}
+                            <li>
+                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
+                                    <span class="label">GitHub</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.twitter %}
+                            <li>
+                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
+                                    <span class="label">Twitter</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.instagram %}
+                            <li>
+                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
+                                    <span class="label">Instagram</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.linkedin %}
+                            <li>
+                                <a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin">
+                                    <span class="label">LinkedIn</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </section>
+                <p class="copyright">
+                    &copy; {{ site.author }}
+                </p>
+            </div>
+        </div>
+    </footer>    
+</div>
